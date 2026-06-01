@@ -42,6 +42,7 @@ app:
     topic:
       employee-mutations: employee-mutations-topic
 
+
 springdoc:
   swagger-ui:
     path: /swagger-ui.html
