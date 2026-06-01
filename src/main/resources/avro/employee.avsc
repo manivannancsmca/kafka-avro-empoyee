@@ -1,0 +1,14 @@
+{
+  "type": "record",
+  "name": "EmployeeAvro",
+  "namespace": "com.kafka_.avro_empoyee.avro",
+  "doc": "Avro Schema for Employee Domain Object",
+  "fields": [
+    { "name": "id", "type": "string", "doc": "Unique Identifier" },
+    { "name": "firstName", "type": "string" },
+    { "name": "lastName", "type": "string" },
+    { "name": "age", "type": "int" },
+    
+    { "name": "emailId", "type": "string" }
+  ]
+}
